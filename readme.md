@@ -44,8 +44,10 @@ Textadept uses Lua 5.2 since version 5.
 Moonscript lexer:
 
 Copyright 2006-2011 Mitchell mitchell<att>caladbolg.net.
+
 Moonscript lexer by leaf corcoran <http://leafo.net>
 
 Moonscript module:
+
 2012, Robert Gieseke, robert.gieseke@gmail.com
 
