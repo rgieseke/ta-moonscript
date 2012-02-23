@@ -1,7 +1,7 @@
 -- A `moonscript` module for the
 -- [Textadept](http://code.google.com/p/textadept/) editor.
 -- It provides utilities for editing
--- [Moonscript](http://moonscript.org) code.<br>
+-- [MoonScript](http://moonscript.org) code.<br>
 --
 -- The source is on
 -- [GitHub](https://github.com/rgieseke/ta-moonscript),
