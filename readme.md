@@ -3,20 +3,29 @@
 ### Installation
 
 Clone this repository in your
+
     .textadept/modules
+
 directory:
+
     cd ~/.textadept/modules
     git clone https://github.com/rgieseke/ta-moonscript.git moonscript
 
 Copy the MoonScript lexer from lexer/moonscript.lua to
+    
     .textadept/lexers
+
 or create a symlink.
 
 Add
+
     % MoonScript
     moon moonscript
+
 to your
+
     .textadept/mime_types.conf
+
 file.
 
 ### Notes
