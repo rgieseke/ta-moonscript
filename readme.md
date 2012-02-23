@@ -12,7 +12,7 @@ directory:
     git clone https://github.com/rgieseke/ta-moonscript.git moonscript
 
 Copy the MoonScript lexer from lexer/moonscript.lua to
-    
+
     .textadept/lexers
 
 or create a symlink.
@@ -39,6 +39,13 @@ in your terminal.
 Textadept uses Lua 5.2 since version 5.
 
 ### License
+[MIT](http://www.opensource.org/licenses/mit-license.php)
 
-[MIT](http://www.opensource.org/licenses/mit-license.php) - 2012, Robert Gieseke, robert.gieseke@gmail.com
+Moonscript lexer:
+
+Copyright 2006-2011 Mitchell mitchell<att>caladbolg.net.
+Moonscript lexer by leaf corcoran <http://leafo.net>
+
+Moonscript module:
+2012, Robert Gieseke, robert.gieseke@gmail.com
 
