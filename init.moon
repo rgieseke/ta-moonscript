@@ -51,7 +51,7 @@ indent = ->
       indent = line_indentation[line_num]
       buffer\begin_undo_action!
       buffer\new_line!
-      line_indentation[line_num + 1] = indent + buffer.indent
+      line_indentation[line_num + 1] = indent + buffer.tab_width
       buffer\line_end!
       buffer\end_undo_action!
       return true
