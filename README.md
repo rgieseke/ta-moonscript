@@ -7,11 +7,10 @@ Clone this repository into your `.textadept/modules` directory:
     cd ~/.textadept/modules
     git clone https://github.com/rgieseke/ta-moonscript.git moonscript
 
-Copy the MoonScript lexer from lexer/moonscript.lua to
-
+Put a copy of the MoonScript lexer from
+<https://github.com/leafo/moonscript/blob/master/extra/scintillua/lexers/moonscript.lua>
+into
     .textadept/lexers
-
-or create a symlink.
 
 Add
 
