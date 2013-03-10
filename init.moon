@@ -1,5 +1,5 @@
 -- A `moonscript` module for the
--- [Textadept](http://code.google.com/p/textadept/) editor.
+-- [Textadept](http://foicica.com/textadept/) editor.
 -- It provides utilities for editing
 -- [MoonScript](http://moonscript.org) code.<br>
 --
