@@ -7,10 +7,12 @@ Clone this repository into your `.textadept/modules` directory:
     cd ~/.textadept/modules
     git clone https://github.com/rgieseke/ta-moonscript.git moonscript
 
-Put a copy of the MoonScript lexer from
+Download a copy of the MoonScript lexer from
 <https://github.com/leafo/moonscript/blob/master/extra/scintillua/lexers/moonscript.lua>
-into
-    .textadept/lexers
+into your `lexers` directory, e.g.
+
+    cd ~/.textadept/lexers
+    wget https://raw.github.com/leafo/moonscript/master/extra/scintillua/lexers/moonscript.lua
 
 Add
 
@@ -19,7 +21,7 @@ Add
 
 to your
 
-    .textadept/mime_types.conf
+    ~/.textadept/mime_types.conf
 
 file.
 
