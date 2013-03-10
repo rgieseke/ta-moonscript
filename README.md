@@ -34,13 +34,5 @@ in your terminal.
 ### License
 [MIT](http://www.opensource.org/licenses/mit-license.php)
 
-Moonscript lexer:
-
-Copyright 2006-2011 Mitchell mitchell<att>caladbolg.net.
-
-Moonscript lexer by leaf corcoran <http://leafo.net>
-
-Moonscript module:
-
-2012, Robert Gieseke, robert.gieseke@gmail.com
+2012-13, Robert Gieseke, robert.gieseke@gmail.com
 
