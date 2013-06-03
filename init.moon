@@ -18,10 +18,6 @@ m_editing.comment_string.moonscript = '-- '
 -- Run command (uses file extension).
 m_run.run_command.moon = 'moonc -p %(filename)'
 
--- Set default buffer properties.
-M.set_buffer_properties = ->
-  return
-
 -- Control structures after which indentation should be increased.
 control_structure_patterns = {
   '^%s*class',

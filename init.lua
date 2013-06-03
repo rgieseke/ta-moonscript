@@ -2,9 +2,6 @@ local M = { }
 local m_editing, m_run = _M.textadept.editing, _M.textadept.run
 m_editing.comment_string.moonscript = '-- '
 m_run.run_command.moon = 'moonc -p %(filename)'
-M.set_buffer_properties = function()
-  return 
-end
 local control_structure_patterns = {
   '^%s*class',
   '^%s*[%w_]*%s?=?%s?for',
