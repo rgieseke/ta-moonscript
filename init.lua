@@ -1,7 +1,7 @@
 local M = { }
-local m_editing, m_run = _M.textadept.editing, _M.textadept.run
-m_editing.comment_string.moonscript = '-- '
-m_run.run_command.moon = 'moonc -p %(filename)'
+local editing, run = textadept.editing, textadept.run
+editing.comment_string.moonscript = '--'
+run.run_commands.moon = 'moonc -p %(filename)'
 local control_structure_patterns = {
   '^%s*class',
   '^%s*[%w_]*%s?=?%s?for',
@@ -26,9 +26,8 @@ indent = function()
   end
   local line = buffer:get_line(line_num)
   local line_indentation = buffer.line_indentation
-  local _list_0 = control_structure_patterns
-  for _index_0 = 1, #_list_0 do
-    local patt = _list_0[_index_0]
+  for _index_0 = 1, #control_structure_patterns do
+    local patt = control_structure_patterns[_index_0]
     if line:find(patt) then
       indent = line_indentation[line_num]
       buffer:begin_undo_action()
@@ -50,7 +49,7 @@ keys.moonscript = {
   [keys.LANGUAGE_MODULE_PREFIX] = {
     m = {
       io.open_file,
-      module_file:iconv('UTF-8', _CHARSET)
+      module_file
     }
   },
   ['\n'] = indent

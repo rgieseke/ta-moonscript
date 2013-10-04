@@ -10,13 +10,13 @@
 
 M = {}
 
-m_editing, m_run = _M.textadept.editing, _M.textadept.run
+editing, run = textadept.editing, textadept.run
 
 -- Comment string (uses lexer name).
-m_editing.comment_string.moonscript = '-- '
+editing.comment_string.moonscript = '--'
 
 -- Run command (uses file extension).
-m_run.run_command.moon = 'moonc -p %(filename)'
+run.run_commands.moon = 'moonc -p %(filename)'
 
 -- Control structures after which indentation should be increased.
 control_structure_patterns = {
@@ -63,7 +63,7 @@ snippets.moonscript = {
 module_file = _USERHOME..'/modules/moonscript/init.moon'
 keys.moonscript = {
   [keys.LANGUAGE_MODULE_PREFIX]: {
-    m: {io.open_file, module_file\iconv('UTF-8', _CHARSET) },
+    m: {io.open_file, module_file},
     },
   ['\n']: indent,
 }
